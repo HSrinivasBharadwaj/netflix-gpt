@@ -2,6 +2,7 @@ import React from "react";
 import MovieCard from "./MovieCard";
 
 const MovieList = ({ title, movies }) => {
+  console.log("movie results",movies)
   return (
     <div>
       <div className="mt-3">
